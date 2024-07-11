@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords:
   - ETC1_EXTERNAL_ALPHA
   - _ENABLESOURCEALPHADISSOLVE_ON
+  - _ENABLESOURCEGLOWDISSOLVE_ON
   - _SHADERFADING_NONE
   - _SHADERSPACE_UV
   - _STRONGTINTCONTRASTTOGGLE_ON
@@ -269,7 +270,7 @@ Material:
     - _EnableSmoke: 0
     - _EnableSmoothPixelArt: 0
     - _EnableSourceAlphaDissolve: 1
-    - _EnableSourceGlowDissolve: 0
+    - _EnableSourceGlowDissolve: 1
     - _EnableSplitToning: 0
     - _EnableSqueeze: 0
     - _EnableSquish: 0
@@ -437,14 +438,14 @@ Material:
     - _SmokeSmoothness: 1
     - _SmokeVertexSeed: 0
     - _SmoothnessTextureChannel: 0
-    - _SourceAlphaDissolveFade: 3.25
+    - _SourceAlphaDissolveFade: 10.94
     - _SourceAlphaDissolveInvert: 0
-    - _SourceAlphaDissolveNoiseFactor: 0.3
-    - _SourceAlphaDissolveWidth: 0.4
-    - _SourceGlowDissolveFade: 1
+    - _SourceAlphaDissolveNoiseFactor: 1.15
+    - _SourceAlphaDissolveWidth: 1.39
+    - _SourceGlowDissolveFade: 5.67
     - _SourceGlowDissolveInvert: 0
     - _SourceGlowDissolveNoiseFactor: 0.2
-    - _SourceGlowDissolveWidth: 0.1
+    - _SourceGlowDissolveWidth: 0.04
     - _SpecularHighlights: 1
     - _SplitToningBalance: 1
     - _SplitToningContrast: 1
@@ -634,7 +635,7 @@ Material:
     - _SineMoveOffset: {r: 0, g: 0.5, b: 0, a: 0}
     - _SineRotatePivot: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _SineScaleFactor: {r: 0.2, g: 0.2, b: 0, a: 0}
-    - _SourceAlphaDissolveNoiseScale: {r: 0.3, g: 0.3, b: 0, a: 0}
+    - _SourceAlphaDissolveNoiseScale: {r: 1.38, g: 0.57, b: 0, a: 0}
     - _SourceAlphaDissolvePosition: {r: 0, g: 0, b: 0, a: 0}
     - _SourceGlowDissolveEdgeColor: {r: 11.98431, g: 0.627451, b: 0.627451, a: 0}
     - _SourceGlowDissolveNoiseScale: {r: 0.3, g: 0.3, b: 0, a: 0}
